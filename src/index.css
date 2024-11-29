@@ -1,13 +1,51 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'Object Sans Slanted';
+  src: url('/fonts/ObjectSans-Slanted.eot');
+  src: local('/fonts/Object Sans Slanted'), local('ObjectSans-Slanted'),
+      url('/fonts/ObjectSans-Slanted.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/ObjectSans-Slanted.woff2') format('woff2'),
+      url('/fonts/ObjectSans-Slanted.woff') format('woff'),
+      url('/fonts/ObjectSans-Slanted.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Object Sans';
+  src: url('/fonts/ObjectSans-Regular.eot');
+  src: local('/fonts/Object Sans Regular'), local('/fonts/ObjectSans-Regular'),
+      url('/fonts/ObjectSans-Regular.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/ObjectSans-Regular.woff2') format('woff2'),
+      url('/fonts/ObjectSans-Regular.woff') format('woff'),
+      url('/fonts/ObjectSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Object Sans';
+  src: url('/fonts/ObjectSans-Heavy.eot');
+  src: local('/fonts/Object Sans Heavy'), local('/fonts/ObjectSans-Heavy'),
+      url('/fonts/ObjectSans-Heavy.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/ObjectSans-Heavy.woff2') format('woff2'),
+      url('/fonts/ObjectSans-Heavy.woff') format('woff'),
+      url('/fonts/ObjectSans-Heavy.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Object Sans';
+  src: url('/fonts/ObjectSans-HeavySlanted.eot');
+  src: local('/fonts/Object Sans Heavy Slanted'), local('/fonts/ObjectSans-HeavySlanted'),
+      url('/fonts/ObjectSans-HeavySlanted.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/ObjectSans-HeavySlanted.woff2') format('woff2'),
+      url('/fonts/ObjectSans-HeavySlanted.woff') format('woff'),
+      url('/fonts/ObjectSans-HeavySlanted.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  font-family: 'Object Sans', sans-serif;
 }
